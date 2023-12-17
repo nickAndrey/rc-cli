@@ -1,6 +1,6 @@
 {
   "name": "react-cli-utils",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "command-line tool for creating new React components",
   "main": "index.js",
   "scripts": {
