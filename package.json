@@ -1,5 +1,5 @@
 {
-  "name": "react-cli",
+  "name": "react-cli-helper",
   "version": "1.0.0",
   "description": "command-line tool for creating new React components",
   "main": "index.js",
