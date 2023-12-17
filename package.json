@@ -1,14 +1,14 @@
 {
   "name": "react-cli",
   "version": "1.0.0",
-  "description": "",
+  "description": "command-line tool for creating new React components",
   "main": "index.js",
   "scripts": {
     "start": "tsc && node dist/index.js",
     "dev": "tsc --watch"
   },
   "keywords": [],
-  "author": "",
+  "author": "Andrew Husiev",
   "license": "ISC",
   "dependencies": {
     "commander": "^11.1.0"
