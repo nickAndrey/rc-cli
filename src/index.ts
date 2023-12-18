@@ -28,7 +28,7 @@ program
   );
 
 program
-  .command('create')
+  .command('g')
   .description('Create a new React component')
   .action(() => {
     const { component, scssModule, storybook, fullSetup } = program.opts();

@@ -17,7 +17,7 @@ commander_1.program
     .option('-sb, --storybook', 'Create a new storybook component for the component.')
     .option('-fs, --full-setup', 'Create a component with a storybook and SCSS module files.');
 commander_1.program
-    .command('create')
+    .command('g')
     .description('Create a new React component')
     .action(() => {
     const { component, scssModule, storybook, fullSetup } = commander_1.program.opts();
