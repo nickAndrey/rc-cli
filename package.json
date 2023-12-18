@@ -1,17 +1,21 @@
 {
   "name": "react-cli-utils",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "command-line tool for creating new React components",
   "main": "index.js",
   "scripts": {
-    "start": "tsc && node dist/index.js",
-    "dev": "tsc --watch"
+    "dev": "tsc --watch",
+    "build": "tsc"
+  },
+  "bin": {
+    "react-cli-utils": "./dist/index.js"
   },
   "keywords": [],
   "author": "Andrew Husiev",
   "license": "ISC",
   "dependencies": {
-    "commander": "^11.1.0"
+    "commander": "^11.1.0",
+    "react-cli-utils": "^1.0.1"
   },
   "devDependencies": {
     "@types/node": "^20.10.4",
