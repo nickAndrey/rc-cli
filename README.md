@@ -7,7 +7,7 @@ This is a command-line tool for creating new React components. It provides sever
 The main command is `create`, which is used to create a new React component.
 
 ```bash
-react-cli-utils create
+rct-cli g
 ```
 
 ## Options
@@ -24,7 +24,7 @@ The following options can be used with the `create` command:
 To create a new component with a full setup, you would use the following command:
 
 ```bash
-react-cli-utils create -c MyComponent -fs
+rct-cli g -c MyComponent -fs
 ```
 
 This will create a new React component named `MyComponent`, along with a Storybook and SCSS module files.
@@ -32,7 +32,7 @@ This will create a new React component named `MyComponent`, along with a Storybo
 Or use the following command:
 
 ```bash
-react-cli-utils create -c components/MyComponent -fs
+rct-cli g -c components/MyComponent -fs
 ```
 
 This will create a new React component named `MyComponent`, along with a Storybook and SCSS module files under the `components` folder.
